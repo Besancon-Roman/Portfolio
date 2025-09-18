@@ -1,0 +1,214 @@
+body{
+    background-color : rgb(20,20,20);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+}
+
+.banner-text {
+    position: relative;
+    text-align: center;
+    margin: 250px 250px;
+}
+
+.banner-text h2 {
+    font-family: 'Monserrat',sans-serif;
+    font-size: 6rem;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+}
+
+.banner-text h2 span {
+    display: inline-block;
+    animation: wave 1.5s infinite ease-in-out;
+}
+
+@keyframes wave {
+    0%   { transform: translateY(0); }
+    30%  { transform: translateY(-15px); }
+    60%  { transform: translateY(0); }
+    100% { transform: translateY(0); }
+}
+
+.nom span:nth-child(1) { animation-delay: 0s; }
+.nom span:nth-child(2) { animation-delay: 0.2s; }
+.nom span:nth-child(3) { animation-delay: 0.4s; }
+.nom span:nth-child(4) { animation-delay: 0.6s; }
+.nom span:nth-child(5) { animation-delay: 0.8s; }
+.nom span:nth-child(6) { animation-delay: 1s; }
+.nom span:nth-child(7) { animation-delay: 1.2s; }
+.nom span:nth-child(8) { animation-delay: 1.4s; }
+
+.prenom span:nth-child(1) { animation-delay: 0s; }
+.prenom span:nth-child(2) { animation-delay: 0.2s; }
+.prenom span:nth-child(3) { animation-delay: 0.4s; }
+.prenom span:nth-child(4) { animation-delay: 0.6s; }
+.prenom span:nth-child(5) { animation-delay: 0.8s; }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-nav
+{
+    width: 100%;
+}
+
+.START
+{
+    margin-top: 20px;
+    padding : 20px;
+    color : white;
+    font-size: 50px;
+    font-weight: bold;
+    background-image: linear-gradient(to left, #7800e8, #feb47b); 
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.TITRES
+{
+    padding: 30px;
+    font-weight: bold;
+    background-image: linear-gradient(to left, #7800e8, #feb47b); 
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.PROFIL
+{
+    padding : 30px 50px;
+    background-color: #303434;
+    border-radius: 25px;
+    color : white;
+}
+
+.PHOTO
+{
+    padding : 30px;
+    margin-right: 100px; /* faire gaffe à margin bottom en mode téléphone */
+    border-radius: 30px;
+}
+
+.DESC
+{
+    margin: auto;
+    font-size : large;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.DEVLOGO
+{
+    width:80px;
+    margin-left: 50px;
+    bottom : 150px;
+    opacity : 0.4;
+}
+
+.ligne {
+    border: 0;
+    height: 5px; 
+    background-color: #303434; 
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+}
+
+.S-TITRE
+{
+    text-align: center;
+    font-weight: bold;
+}
+
+.DEVART
+{
+    width: 1000px;
+}
+
+#carouselRedem
+{
+    margin: 50px 0px 50px 0px;
+}
+
+#carouselHack
+{
+    margin: 50px 0px 50px 0px;
+}
+
+.RedemTitre
+{
+    display: block;
+    width: 300px;
+    margin : auto;
+}
+
+.HackTitre
+{
+    display: block;
+    width: 400px;
+    margin : auto;
+}
+
+.langages
+{
+    width : 30px;
+}
+
+.langagesAutre
+{
+    width : 22px;
+}
+
+.DESC2
+{
+    margin-left: 100px;
+    padding: 30px;
+    border-radius: 30px;
+    text-align: left;
+}
+
+.DESC1
+{
+    padding: 30px;
+    border-radius: 30px;
+    text-align: left;
+}
+
+.titredesc
+{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.footer
+{
+    color :white;
+}
+
+.Contact
+{
+    display: block;
+}
+
+.CONTACT1
+{
+    padding : 30px 50px;
+    background-color: #303434;
+    border-radius: 25px;
+    color : white;
+    margin-right: 30px;
+}
+
+.CONTACT2
+{
+    padding : 30px 50px;
+    background-color: #303434;
+    border-radius: 25px;
+    color : white;
+}
