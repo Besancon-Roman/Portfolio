@@ -53,6 +53,22 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+
+.navbar {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    width: 90%;
+    max-width: 1200px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(48, 52, 52, 0.9) !important;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    padding: 10px 20px;
+}
+
 .navbar-nav
 {
     width: 100%;
@@ -158,12 +174,32 @@ body{
 .langages
 {
     width : 30px;
+    animation: flip3d 3s ease-in-out infinite;
+    transform-style: preserve-3d;
 }
 
 .langagesAutre
 {
     width : 22px;
+    animation: flip3d 3s ease-in-out infinite;
+    animation-delay: 1.8s;
+    transform-style: preserve-3d;
 }
+
+
+/* Animation des logos de langages */
+@keyframes flip3d {
+    0% { transform: rotateY(0deg); }
+    50% { transform: rotateY(180deg); }
+    100% { transform: rotateY(360deg); }
+}
+
+.langages:nth-child(1) { animation-delay: 0s; }
+.langages:nth-child(2) { animation-delay: 0.3s; }
+.langages:nth-child(3) { animation-delay: 0.6s; }
+.langages:nth-child(4) { animation-delay: 0.9s; }
+.langages:nth-child(5) { animation-delay: 1.2s; }
+.langages:nth-child(6) { animation-delay: 1.5s; }
 
 .DESC2
 {
@@ -211,4 +247,174 @@ body{
     background-color: #303434;
     border-radius: 25px;
     color : white;
+}
+
+/* Responsive pour tablettes */
+@media (max-width: 992px) {
+    .navbar {
+        width: 95%;
+        padding: 8px 15px;
+    }
+    
+    .banner-text {
+        margin: 150px 100px;
+    }
+    
+    .banner-text h2 {
+        font-size: 4rem;
+    }
+    
+    .DEVART {
+        width: 100%;
+        padding: 0 20px;
+    }
+    
+    #carouselRedem, #carouselHack {
+        margin: 30px 0;
+    }
+    
+    .carousel-caption {
+        font-size: 0.9rem;
+    }
+    
+    .carousel-caption h3 {
+        font-size: 1.2rem;
+    }
+    
+    .PHOTO {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    
+    .DESC2 {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+}
+
+/* Responsive pour mobiles */
+@media (max-width: 768px) {
+    body {
+        padding-top: 80px;
+    }
+    
+    .navbar {
+        width: 95%;
+        top: 5px;
+        border-radius: 15px;
+        padding: 5px 10px;
+    }
+    
+    .banner-text {
+        margin: 100px 30px;
+    }
+    
+    .banner-text h2 {
+        font-size: 2.5rem;
+    }
+    
+    .START {
+        font-size: 30px;
+        padding: 15px;
+    }
+    
+    .TITRES {
+        font-size: 1.5rem;
+        padding: 20px;
+    }
+    
+    .PROFIL {
+        padding: 20px;
+    }
+    
+    .PHOTO {
+        margin-right: 0;
+        padding: 15px;
+    }
+    
+    .DESC, .DESC1, .DESC2 {
+        padding: 15px;
+        margin-left: 0;
+        font-size: medium;
+    }
+    
+    .DEVART {
+        padding: 0 10px;
+    }
+    
+    #carouselRedem, #carouselHack {
+        margin: 20px 0;
+    }
+    
+    .carousel-caption {
+        font-size: 0.7rem;
+        padding: 5px;
+        background-color: rgba(0, 0, 0, 0.6);
+        border-radius: 10px;
+    }
+    
+    .carousel-caption h3 {
+        font-size: 1rem;
+        margin-bottom: 5px;
+    }
+    
+    .carousel-caption p {
+        font-size: 0.7rem;
+        margin-bottom: 0;
+    }
+    
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .RedemTitre {
+        width: 200px;
+    }
+    
+    .HackTitre {
+        width: 250px;
+    }
+    
+    .CONTACT1, .CONTACT2 {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+/* Responsive pour petits mobiles */
+@media (max-width: 480px) {
+    .banner-text {
+        margin: 80px 20px;
+    }
+    
+    .banner-text h2 {
+        font-size: 2rem;
+    }
+    
+    .START {
+        font-size: 24px;
+    }
+    
+    .navbar {
+        width: 98%;
+    }
+    
+    .carousel-caption {
+        display: none;
+    }
+    
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 10%;
+    }
+    
+    .RedemTitre {
+        width: 150px;
+    }
+    
+    .HackTitre {
+        width: 200px;
+    }
 }
