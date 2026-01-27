@@ -1,0 +1,18 @@
+<div class="tech-dialog-overlay">
+  <div class="tech-dialog-box">
+    <button class="tech-dialog-close">&times;</button>
+    
+    <div class="tech-dialog-header">
+      <img src="{{img}}" alt="{{name}}">
+    </div>
+    
+    <div class="tech-dialog-body">
+      <span class="tech-type">{{type}}</span>
+      <h2 class="tech-name">{{name}}</h2>
+      <p class="tech-description">{{desc}}</p>
+      {{#each links}}
+        <a class="tech-link">{{this}}</a>    
+      {{/each}}
+    </div>
+  </div>
+</div>

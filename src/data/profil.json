@@ -1,0 +1,112 @@
+{
+    "nom" : "Besançon",
+    "prenom" : "Roman",
+    "img" : "profil.jpg",
+    "description" : "Je suis actuellement un étudiant en première année de BUT informatique et j'aime beaucoup ce domaine là, c'est pourquoi que je souhaiterais devenir développeur d'applications dans le futur. Je suis quelqu'un de plutôt curieux, dès qu’un projet m’intéresse je suis motivé et déterminé pour continuer à avancer et finir celui-ci. De plus, j'ai un bon esprit d'équipe et aussi de la patience. J'ai pu réaliser plusieurs projets personnels et scolaires qui m'ont permis de mettre en oeuvre d'acquérir plusieurs compétences et technologies.",
+    "technologies" : [
+        {
+            "nom" : "Javascript",
+            "type" : "Langage de programmation",
+            "desc" : "Langage que j'utilise le plus souvent, je l'applique tout le temps lors du développement d'applications web. J'ai pu approfondir mes connaissances avec des projets personnels et scolaires.",
+            "img" : "js.png",
+            "links" : [
+                "FlowMotion",
+                "Monster Hunter - Faiblesses des monstres"
+            ]
+        },
+        {
+            "nom" : "C++",
+            "type" : "Langage de programmation",
+            "desc" : "Langage que j'ai pu utilisé principalement lors de mes cours à l'IUT, il m'a permis de mieux découvrir la programmation orientée objet mais aussi le polymorphisme et l'héritage",
+            "img" : "c++.png",
+            "links" : [
+                "Application de messagerie client-serveur",
+                "Catalogue d'avions"
+            ]
+        },
+        {
+            "nom" : "Java",
+            "type" : "Langage de programmation",
+            "desc" : "J'ai commencé à utilisé Java lors de ma deuxième année de BUT Informatique, j'ai pu appliquer mes compétences en programmation orientée objet, design patterns mais aussi en base de données. Enfin j'ai pu réaliser un projet qui consistait la visualisation d'accords de guitare, grâce à JavaFX.",
+            "img" : "java.png"
+        },
+        {
+            "nom" : "Python",
+            "type" : "Langage de programmation",
+            "desc" : "J'ai pu utiliser python au cours de mon année de première et terminale afin d'apprendre les bases de la programmation et un peu de programmation orientée objet. Je l'utilise aujourd'hui uniquement pour des scripts en mathématique et géométrie.",
+            "img" : "python.png"
+        },
+        {
+            "nom" : "Webpack",
+            "type" : "Empaqueteur de modules",
+            "desc" : "Empaqueteur de code que j'ai pu apprendre grâce à différents projets et que j'utilise maintenant régulièrement pour mes projets web.",
+            "img" : "webpack.png",
+            "links" : [
+                "FlowMotion",
+                "Monster Hunter - Faiblesses des monstres"
+            ]
+        },
+        {
+            "nom" : "VirtualBox",
+            "type" : "Logiciel",
+            "desc" : "J'ai utiliser virtualbox dans un contexte scolaire afin déployer et configurer plusieurs serveurs (HTTP/HTTPS,Messagerie,Web...) mais aussi pour réaliser une configuration triple boot (Linux Mint, Windows 11 et FreeBSD avec un grub personnalisé).",
+            "img" : "virtualbox.png"
+        },
+        {
+            "nom" : "Unity",
+            "type" : "Moteur de jeu",
+            "desc" : "J'ai pu utilisé ce moteur de jeu uniquement pour des projets personnels, notamment pour créer un jeu de tir en 2D nommé 'Redemption' mais aussi certains projets personnels non aboutis (un jeu d'escalade, un platformer et un jeu de simulation d'agriculture).",
+            "img" : "unity.png",
+            "links" : [
+                "Redemption"
+            ]
+        },
+        {
+            "nom" : "Git",
+            "type" : "Logiciel de gestion de versions",
+            "desc" : "Logiciel que j'utilise régulièrement pour gérer les versions de mes projets scolaires, personnels et aussi pour collaborer avec d'autres personnes sur des projets communs.",
+            "img" : "git.png",
+            "links" : [
+                "FlowMotion",
+                "Catalogue d'avions"
+            ]
+        },
+        {
+            "nom" : "PostgreSQL",
+            "type" : "Langage de programmation",
+            "desc" : "J'ai principalement utilisé PostgreSQL lors de mes projets scolaires pour la gestion de bases de données relationnelles. J'ai pu apprendre plusieurs choses approfondies sur le langage SQL comme les vues, fonctions, triggers etc..",
+            "img" : "postgre.png"
+        },
+        {
+            "nom" : "PHP",
+            "type" : "Langage de programmation",
+            "desc" : "Langage encore nouveau pour moi même si après la finalisation de ma deuxième année de BUT, j'aurais acquis de bonnes bases en PHP mais aussi en Laravel.",
+            "img" : "php.png"
+        },
+        {
+            "nom" : "HTML",
+            "type" : "Langage de programmation",
+            "desc" : "J'utilise ce langage depuis la première au lycée et je l'ai approfondi avec plusieurs projets personnels et scolaires.",
+            "img" : "html.png"
+        },
+        {
+            "nom" : "CSS",
+            "type" : "Langage de programmation",
+            "desc" : "À la manière de HTML, j'utilise ce langage depuis la première au lycée et je l'ai approfondi avec plusieurs projets personnels et scolaires.",
+            "img" : "css.png"
+        },
+        {
+            "nom" : "Qt Creator/Designer",
+            "type" : "Environnement de développement intégré",
+            "desc" : "J'ai eu l'opportunité d'utiliser Qt Creator/Designer lors de plusieurs projets scolaire en C++, ceci m'a permis de découvrir la création d'interfaces graphiques avec cette bibliothèque mais aussi la programmation orientée objet sur une application complète.",
+            "img" : "qt.png",
+            "links" : [
+                "Catalogue d'avions"
+            ]
+        }
+    ],
+    "contact" : {
+        "email" : "besanconr2005@gmail.com",
+        "phone" : "06 56 70 80 72"
+    }
+}

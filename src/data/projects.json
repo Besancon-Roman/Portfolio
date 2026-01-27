@@ -1,0 +1,95 @@
+{
+    "projects" : [
+        {
+            "title" : "Redemption",
+            "description" : "Redemption est un jeu vidéo en 2D dans lequel on incarne un personnage devant parcourir plusieurs niveaux afin de retrouver les membres que lui a arrachés une sorcière maléfique. Sur son chemin, il acquiert de nouvelles capacités et des armes pour pouvoir vaincre le boss final : la sorcière. Cette épreuve m’a notamment appris à gérer un véritable projet en équipe avec une date d’échéance, tout en élargissant mes connaissances dans le domaine du développement de jeux vidéo. Ce qui m’a particulièrement plu dans cette expérience, c’est d’avoir créé un jeu de A à Z, dont tous les composants ont été réalisés par mon équipe et moi-même.",
+            "short" : "Redemption, un jeu vidéo 2D créé durant un challenge de 32 heures par mon équipe et moi.",
+            "competences" : [
+                "Prise en main d’un moteur de jeu",
+                "Prise en main d'un nouveau langage",
+                "Respect d'une date d'échéance"
+            ],
+            "images" : [
+                "redemption1.png",
+                "redemption2.png",
+                "redemption3.png"
+            ]
+        },
+        {
+            "title" : "Passe Ton Hack d'Abord",
+            "description" :"Passe Ton Hack d’Abord est un challenge organisé par le Commandement de la Cyberdéfense des Armées. Le principe de ce challenge reposait sur un système de « capture the flag » : chaque objectif devait être validé en insérant un flag (une suite de lettres et de chiffres) dans une zone de texte sur le site du challenge. Les épreuves consistaient notamment à analyser et exploiter des paquets de données échangés entre des réseaux, à déterminer une localisation précise à partir d’une simple photo, ou encore à examiner et décortiquer du code en HTML ou Python. Dans ce challenge, j’ai particulièrement apprécié le fait que, à travers les différents objectifs, on en apprenait de plus en plus sur la cybersécurité et sur son importance dans le monde actuel.",
+            "short" : "Passe Ton Hack d'Abord, un challenge en équipe centré sur la cybersécurité organisé par la Cyberdéfense des Armées.",
+            "competences" : [
+                "Analyse de paquets de données envoyés dans un réseau",
+                "Déchiffrage(machine Enigma)",
+                "Compréhension du besoin de cybersécurité"
+            ],
+            "images" : [
+                "hackdabor1.png",
+                "hackdabor2.png",
+                "hackdabor3.jpg"
+            ]
+        },
+        {
+            "title" : "Monster Hunter - Faiblesses des monstres",
+            "description" : "Lors de la réalisation de ce projet j'ai pu découvrir comment exploiter une API afin de récupérer uniquement les données qui m'intéressaient tout en construisant des instances d'objets correspondant aux monstres et aux armes du jeu Monster Hunter World. Après avoir fait ceci, j'ai mis en place un tri des données par arme utilisée et aussi par nom recherché. J'ai particulièrement apprécié ce projet car il m'a permis de mieux comprendre le fonctionnement des APIs et d'améliorer mes compétences en programmation orientée objet.",
+            "short" : "Application web qui répertorie les monstres de Monster Hunter World et affiche les armes auxquels ils sont faibles utilisant des API.",
+            "competences" : [
+                "Exploitation d'APIs",
+                "Programmation Orientée Objet",
+                "Webpack",
+                "Javascript"
+            ],
+            "images" : [
+                "MHW1.png",
+                "MHW2.png",
+                "MHW3.png"
+            ]
+        },
+        {
+            "title" : "FlowMotion",
+            "description" : "FlowMotion est le nom que mon équipe et moi avons donné à une application web de gestion de 'workflows' soit des flux de travail qui sont composés de tâches. Nous avons dû recueillir les besoins de notre commanditaire afin de concevoir une application qui lui correspondait. J'ai particulièrement apprécié ce projet car il m'a permis de découvrir le rôle de Scrum Master et ses responsabilités.",
+            "short" : "Application web développée par mon équipe et moi lors d'un projet tutoré où j'incarnais le rôle de Scrum Master.",
+            "competences" : [
+                "Programmation Orientée Objet",
+                "Webpack",
+                "Javascript",
+                "Gestion de projet en méthode agile SCRUM",
+                "Recueil de besoins"
+            ],
+            "images" : [
+                "flowmotion1.png",
+                "flowmotion2.png",
+                "sprintbacklog.png"
+            ]
+        },
+        {
+            "title" : "Application de messagerie client-serveur",
+            "description" :"J'ai pu réalisé ce projet durant ma deuxième année d'études en BUT Informatique. Le but de ce projet était de créer une application de messagerie en C++ utilisant des sockets pour la communication entre le client et le serveur et ceci m'a beaucoup plus car il m'a permis de découvrir pour la première fois la programmation système, cela m'a permis de mieux comprendre comment communique plusieurs machines (clients et serveur).",
+            "short" : "Application de messagerie développée en C++ lors d'un projet scolaire utilisant des sockets pour la communication entre le client et le serveur.",
+            "competences" : [
+                "Programmation Orientée Objet",
+                "C++",
+                "Utilisation de sockets"
+            ],
+            "images" : [
+                "serveur1.png",
+                "serveur2.png",
+                "serveur3.png"
+            ]
+        },
+        {
+            "title" : "Catalogue d'avions",
+            "description" : "Dans ce projet la compétence que j'ai le plus développée est la programmation orientée objet en C++ avec l'utilisation de la bibliothèque Qt pour la création de l'interface graphique. J'ai découvert des design patterns avec différentes classes ou interfaces qu'on pouvait décider d'implémenter ou non selon les besoins. De plus, j'ai découvert tout l'aspect graphique avec Qt Designer mais aussi par exemple la traduction de l'application que j'ai réalisée en anglais.",
+            "short" : "Application réalisée en binôme lors d'un projet scolaire qui permet de consulter un catalogue d'avions et d'ajouter, supprimer et modifier des avions à celui-ci. ",
+            "competences" : [
+                "Programmation Orientée Objet",
+                "Qt Creator/Designer",
+                "C++"
+            ],
+            "images" : [
+                "AVION1.png"
+            ]
+        }
+    ]
+}
