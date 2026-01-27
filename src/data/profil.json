@@ -2,7 +2,7 @@
     "nom" : "Besançon",
     "prenom" : "Roman",
     "img" : "profil.jpg",
-    "description" : "Je suis actuellement un étudiant en première année de BUT informatique et j'aime beaucoup ce domaine là, c'est pourquoi que je souhaiterais devenir développeur d'applications dans le futur. Je suis quelqu'un de plutôt curieux, dès qu’un projet m’intéresse je suis motivé et déterminé pour continuer à avancer et finir celui-ci. De plus, j'ai un bon esprit d'équipe et aussi de la patience. J'ai pu réaliser plusieurs projets personnels et scolaires qui m'ont permis de mettre en oeuvre d'acquérir plusieurs compétences et technologies.",
+    "description" : "Je suis actuellement un étudiant en deuxième année de BUT informatique et j'aime beaucoup ce domaine là, c'est pourquoi que je souhaiterais devenir développeur d'applications dans le futur. Je suis quelqu'un de plutôt curieux, dès qu’un projet m’intéresse je suis motivé et déterminé pour continuer à avancer et finir celui-ci. De plus, j'ai un bon esprit d'équipe et aussi de la patience. J'ai pu réaliser plusieurs projets personnels et scolaires qui m'ont permis de mettre en oeuvre d'acquérir plusieurs compétences et technologies.",
     "technologies" : [
         {
             "nom" : "Javascript",
